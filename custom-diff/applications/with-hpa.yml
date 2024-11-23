@@ -26,3 +26,5 @@ spec:
     kind: Deployment
     jsonPointers:
     - /spec/replicas
+  - group: autoscaling
+    kind: HorizontalPodAutoscaler
